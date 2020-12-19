@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js")
 module.exports = {
   name: "pokemon",
   description: "Get any pokemon description",
-  category: "info",
+  category: "<:info:773053660380135424>info",
   usage: "pokemon <name>",
   run (client, message, args) {
 

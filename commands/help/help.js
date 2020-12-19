@@ -5,7 +5,7 @@ module.exports = {
   description:
     "Get list of all command and even get to know every command detials",
   usage: "help <cmd>",
-  category: "info",
+  category: "<:info:773053660380135424>info",
   run: async (client, message, args) => {
     if (args[0]) {
       const command = await client.commands.get(args[0]);
@@ -27,7 +27,7 @@ module.exports = {
       const commands = await client.commands;
 
       let emx = new MessageEmbed()
-        .setDescription("Join my server or Die :D")
+        .setDescription("[Join my server or Die :D](https://discord.gg/RJ2SRN2cVu)  NOTE:- ALL COMMAND IN BETA SO PLEASE ANY COOMNDS NOT WORK JOIN SUPPORT SERVER")
         .setColor("GREEN")
         .setFooter(client.user.username, client.user.displayAvatarURL())
         .setThumbnail(client.user.displayAvatarURL());

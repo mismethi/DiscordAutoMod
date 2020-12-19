@@ -4,7 +4,7 @@ const db = require("quick.db");
 module.exports = {
   name: "welcometest",
   aliases: ["wtest"],
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   description: "Test the welcome",
   run: async (client, message, args) => {
     let member = message.mentions.users.first() || message.author;

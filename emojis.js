@@ -4,7 +4,7 @@ module.exports = {
 
   name: "emoji",
 
-  category: "info",
+  category: "<:info:773053660380135424>info",
 
   description: "INVITE BOT",
 

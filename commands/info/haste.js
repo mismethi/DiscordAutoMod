@@ -7,7 +7,7 @@ const hastebin = require('hastebin-gen');
 module.exports = {
         name: "hastebin",
         usage: `r!hastebin <code/text>`,
-        category: "utility",
+        category: "Utility",
         aliases: ["haste"],
     run: async (client, message, args) => {
       

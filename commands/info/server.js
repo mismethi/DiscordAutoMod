@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports = {
   name: "serverinfo",
-  category: "info",
+  category: "<:info:773053660380135424>info",
   description: "Get the info of any server",
   run: async (client, message, args) => {
     if (message.guild.premiumTier === "Level 0") message.guild.premiumTier = "<:Level0:734479590852132905> 0"

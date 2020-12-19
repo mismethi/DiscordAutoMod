@@ -3,7 +3,7 @@ const db = require("quick.db");
 module.exports = {
   name: "warnings",
   description: "Get the warnings of yours or mentioned person",
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   run: (client, message, args) => {
     const user = message.mentions.members.first() || message.author;
 

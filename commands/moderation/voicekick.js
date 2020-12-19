@@ -1,6 +1,6 @@
 module.exports = {
   name: "voicekick",
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   run: async (client, message, args) => {
     if (!message.guild.me.hasPermission(["ADMINISTRATOR"]))
       return message.channel.send(

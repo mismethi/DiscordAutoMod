@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports = {
   name: "botinfo",
-  category: "help",
+  category: "<:info:773053660380135424>info",
   description: "INVITE BOT",
   run: async (client, message, args) => {
     let embed = new discord.MessageEmbed()

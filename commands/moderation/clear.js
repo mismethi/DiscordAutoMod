@@ -1,7 +1,7 @@
 module.exports = {
   name: "clear",
   aliases:["c", "purge"],
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   description: "Delete bulk messages with 1 command",
   run: async (client, message, args) => {
     

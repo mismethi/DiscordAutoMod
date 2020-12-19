@@ -7,7 +7,7 @@ const discord = require("discord.js");
 const client = new discord.Client({
   disableEveryone: false
 });
-require("./music.js");
+
 
 require("./uptime.js");
 

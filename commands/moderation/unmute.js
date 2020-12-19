@@ -2,7 +2,7 @@ const db = require("quick.db");
 
 module.exports = {
   name: "unmute",
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   run: async (client, message, args) => {
     if (!message.member.hasPermission("MANAGE_ROLES")) {
       return message.channel.send(

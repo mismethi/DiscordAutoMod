@@ -4,7 +4,7 @@ module.exports = {
   name: "suggest",
   usage: "suggest <message>",
   description: "Send your Suggestion",
-  category: "main",
+  category: "<:mod:789590144650051604> moderation",
   run: (client, message, args) => {
     if (!args.length) {
       return message.channel.send("Please Give the Suggestion");

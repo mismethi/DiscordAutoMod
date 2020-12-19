@@ -2,7 +2,7 @@ const { RichEmbed } = require("discord.js");
 
 module.exports = {
   name: "emoji",
-  category: "info",
+  category: "<:info:773053660380135424>info",
   description: "INVITE BOT",
   run: async (client, message, args) => {
   

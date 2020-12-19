@@ -5,7 +5,7 @@ let reset = { default_prefix }
 
 module.exports = {
   name: "prefix",
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   usage: "prefix <new-prefix>",
   description: "Change the guild prefix",
   run: async (client, message, args) => {

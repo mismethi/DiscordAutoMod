@@ -2,6 +2,7 @@ const discord = require("discord.js");
 
 module.exports = {
   name: "idp",
+  category:"fun",
   run: async (client, message, args) => {
     
     if(!args[0]) {

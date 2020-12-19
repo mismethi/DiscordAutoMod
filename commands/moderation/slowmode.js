@@ -1,5 +1,6 @@
 module.exports = {
   name: "slowmode",
+  category: "<:mod:789590144650051604> moderation",
   description: "Lets you set slowmode on the channel.",
   args: true,
   usage: "<time>",

@@ -6,7 +6,7 @@ const db = require("quick.db");
 module.exports = {
   name: "delwelcome",
   aliases: ["deljoin", "delw"],
-  category: "moderation",
+  category: "<:mod:789590144650051604> moderation",
   description: "Disable welcome message",
   run: async (client, message, args) => {
     
